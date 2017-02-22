@@ -13,7 +13,7 @@
 # This script also assumes GLFW is installed and available in the system path.
 UNAME = $(shell uname -s)
 ifeq ($(UNAME), Darwin)
-  OPENGL_LIB = -framework CoreFoundation -framework OpenGL
+  OPENGL_LIB = -framework CoreFoundation -framework OpenGL -framework CoreGraphics -framework CoreVideo -framework IOKit -framework AppKit
 else
   OPENGL_LIB = -lGL
 endif
