@@ -1,2 +1,10 @@
 *.DS_Store
 _build/
+Debug-iphoneos/
+Debug-iphonesimulator/
+MinsizeRel-iphoneos/
+MinsizeRel-iphonesimulator/
+RelWithDebugInfo-iphoneos/
+RelWithDebugInfo-iphonesimulator/
+Release-iphoneos/
+Release-iphonesimulator/
